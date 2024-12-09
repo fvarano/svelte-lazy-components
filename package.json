@@ -1,6 +1,6 @@
 {
 	"name": "svelte-lazy-components",
-	"version": "0.0.1",
+	"version": "0.1.0",
 	"description": "Lazy wrapper for Svelte components inspired by React.lazy()",
 	"repository": {
 		"type": "git",
