@@ -4,7 +4,7 @@ import LazyComponent from '$lib/LazyComponent.svelte';
 export function lazy<
 	Props extends Record<string, any>,
 	Exports extends Record<string, any>,
-	Bindings extends '' | keyof Props
+	Bindings extends string | keyof Props
 >(
 	fn: () => Promise<{ default: Component<Props, Exports, Bindings> }>
 ): Component<Props, Exports, Bindings> {
@@ -15,5 +15,3 @@ export function lazy<
 		});
 	}) as Component<Props, Exports, Bindings>;
 }
-
-export { default as LazyComponent } from './LazyComponent.svelte';

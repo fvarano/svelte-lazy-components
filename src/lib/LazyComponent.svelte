@@ -32,7 +32,7 @@
 	lang="ts"
 	generics="Props extends Record<string, any>,
 	Exports extends Record<string, any>,
-	Bindings extends '' | keyof Props"
+	Bindings extends string | keyof Props"
 >
 	import type { Component, Snippet } from 'svelte';
 
@@ -41,8 +41,8 @@
 	let {
 		provider,
 		fallback,
-		props: componentProps
-	}: { provider: () => Promise<{ default: C }>; props: Props; fallback?: Snippet } = $props();
+		props: componentProps = {} as Props
+	}: { provider: () => Promise<{ default: C }>; props?: Props; fallback?: Snippet } = $props();
 </script>
 
 {#await resolveComponent(provider)}
