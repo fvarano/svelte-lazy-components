@@ -4,7 +4,7 @@
 	"description": "Lazy wrapper for Svelte components inspired by React.lazy()",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/fvarano/svelte-lazy-components.git"
+		"url": "git+https://github.com/fvarano/svelte-lazy-components.git"
 	},
 	"license": "Apache-2.0",
 	"author": "Federico Varano",
