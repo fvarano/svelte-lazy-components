@@ -35,7 +35,6 @@
 	Bindings extends '' | keyof Props"
 >
 	import type { Component, Snippet } from 'svelte';
-	import Dummy from '$lib/components/Dummy.svelte';
 
 	type C = Component<Props, Exports, Bindings>;
 
