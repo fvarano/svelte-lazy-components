@@ -1,5 +1,5 @@
 import type { Component } from 'svelte';
-import LazyComponent from '$lib/components/LazyComponent.svelte';
+import LazyComponent from '$lib/LazyComponent.svelte';
 
 export function lazy<
 	Props extends Record<string, any>,
