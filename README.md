@@ -1,5 +1,7 @@
 # svelte-lazy-components
 
+[![npm version](https://img.shields.io/npm/v/svelte-lazy-components.svg)](https://www.npmjs.com/package/svelte-lazy-components) [![license](https://img.shields.io/npm/l/svelte-lazy-components.svg)](LICENSE.md)
+
 Lazy wrapper for Svelte components inspired by [React.lazy()](https://react.dev/reference/react/lazy).
 
 *Only supports Svelte 5 components.*
